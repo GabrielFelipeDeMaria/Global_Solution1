@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">   
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link
+    rel="stylesheet"
+    shref="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
+    />
+    <title>GS HTML</title>
+</head>
+
+
+
+<body>
+
+<main>
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="./images/c3504778-409f-4565-9ea2-dc46cb4d5268-removebg-preview.png">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li id="Viagens" class="link"><a href="#Viagens_Cadastradas">Consulta</a></li>
+        </ul>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <H1><span>Olá, </span></H1>
+            <p>
+                Seja bem vindo ao nosso site de registro de embarcações autonomas, aqui você poderá deixar cadastrado todo o ocorrido na missão.
+            </p>
+            <a href="form.html"><button class="btn">Cadastro</button></a>
+        </div>
+    </header>
+</main>
+
+
+<section id="Viagens_Cadastradas" class="container">
+    <div style="display: flex; justify-content: space-between;">
+        <h1 class="header h1cadastro">Viagens Cadastradas</h1>
+        <input type="text" id="search" placeholder="Buscar..." onkeyup="buscar()">
+        <a href="form.html"><button class="">Cadastrar</button></a>
+    </div>
+    <br>
+    <section class="grid" id="lista"></section>
+    <div style="display: flex; justify-content: space-between;">
+        <a href="consulta.html"><button class="btn"> Ver mais </button></a>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+    <script src="status.js"></script>
+    <script src="carregar.js"></script>
+    <script src="cadastro.js"></script>
+    <script src="apagar.js"></script>
+</body>
+
+
+
+</html>

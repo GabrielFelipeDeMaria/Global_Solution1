@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link
+        rel="stylesheet"
+        shref="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
+    />
+    <script src="cadastro.js"></script>
+</head>
+<body>
+
+    <main>
+        <h1 class="header">Cadastro</h1>
+
+        <article>
+            <h2>Cadastrar Viagem</h2>
+
+                <input
+                    aria-describedby="erro-titulo"
+                    type="text" 
+                    id="titulo" 
+                    placeholder="título da viagem"
+                >
+                <small id="erro-titulo"></small>
+
+                <input
+                aria-describedby="erro-local"
+                type="text" 
+                id="local" 
+                placeholder="Local"
+            >
+            <small id="erro-local"></small>
+
+
+                <input 
+                    aria-describedby="erro-descricao"
+                    type="text" 
+                    id="descricao" 
+                    placeholder="descrição da viagem"
+                    >
+                    <small id="erro-descricao"></small>
+
+
+                <input 
+                    aria-describedby="erro-satisfacao"
+                    type="number" 
+                    id="satisfacao" 
+                    placeholder="satisfação da viagem"
+                >
+                <small id="erro-satisfacao"></small>
+
+                <input 
+                    aria-describedby="erro-data"
+                    type="date" 
+                    id="data" 
+                    placeholder="data"
+                >
+                <small id="erro-data"></small>
+
+                <div>
+                    <a role="button" class="outline secondary" href="index.html">cancelar</a>
+                    <a href="index.html">
+                        
+                    <button onclick="cadastro()">salvar</button></a>
+                </div>
+
+        </article>
+
+    </main>
+    <section class="grid" id="lista"></section>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">   
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link
+    rel="stylesheet"
+    shref="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
+    />
+    <title>GS HTML</title>
+</head>
+
+
+
+<body>
+
+<section id="Viagens_Cadastradas" class="container">
+    <div style="display: flex; justify-content: space-between;">
+        <h1 class="header h1cadastro">Viagens Cadastradas</h1>
+        <input type="text" id="search" placeholder="Buscar..." onkeyup="buscar()">
+        <a href="form.html"><button class="">Cadastrar</button></a>
+    </div>
+    <br>
+    <section class="grid" id="lista"></section>
+    <div style="display: flex; justify-content: space-between;">
+        <a href="index.html"><button class=""> Voltar </button></a>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+    <script src="status.js"></script>
+    <script src="carregar.js"></script>
+    <script src="cadastro.js"></script>
+    <script src="apagar.js"></script>
+</body>
+
+
+
+</html>
