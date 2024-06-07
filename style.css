@@ -110,6 +110,7 @@ header{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
+
 }
 
 header .content h4{
@@ -134,7 +135,7 @@ header .content h1 span{
 
 header .content p{
     margin-bottom: 2rem;
-    color: #ffffff;
+    
 }
 
 header .image{
